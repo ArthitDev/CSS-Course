@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@500&display=swap');
+body{
+    font-size: 22px;
+}
+main{
+    font-family: 'Noto Serif Thai', serif;
+}
+p{
+    font-family: monospace;
+}
+.highlights{
+    background-color: blanchedalmond;
+}
+#p2{
+    color: red;
+}
+/* ul>.li-class{
+    font-size: 40px;
+    color: red;
+} */
+a{
+
+    font-size: 22px;
+    color: orange;
+}
+a:focus{
+    color: aqua;
+}
+a:hover{
+    color: greenyellow;
+    text-decoration: none;
+}
+a:active{
+    color: red;
+}
+/*a:visited{
+    color: blue;
+}*/
+.li-1{
+    list-style-type:decimal;
+    text-align: center;
+    list-style-position: inside;
+    color: darkblue;
+    font-size: 22px;
+    font-weight: 15px;
+    list-style-image: url(/CSS-Course/img/checklist.png);
+}
+ul>li:not(:last-child){
+    color: red;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
