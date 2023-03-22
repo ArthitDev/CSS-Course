@@ -17,7 +17,7 @@ body {
     background-color: gray;
     color: white;
     display: grid;
-    justify-content: center;
+    place-content: center;
 }
 
 * {
